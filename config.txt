@@ -1,0 +1,3 @@
+PARAM:  RLE_Params.txt
+IN_FILE: input.txt
+OUT_FILE: output.txt
