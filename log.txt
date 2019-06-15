@@ -1,0 +1,24 @@
+PipeConfig:
+IN_FILE: input.txt
+OUT_FILE: output.txt
+WORKERS_SEQUENCE: workers_seq.txt
+null
+SeqConfig:
+1 : worker1.txt : WorkItem
+2 : worker2.txt : WorkItem
+3 : worker3.txt : WorkItem
+4 : worker4.txt : WorkItem
+null
+PROCESS_MODE: 0
+CHUNK_SIZE:10
+null
+PROCESS_MODE: 1
+CHUNK_SIZE:10
+null
+PROCESS_MODE: 0
+CHUNK_SIZE:10
+null
+PROCESS_MODE: 1
+CHUNK_SIZE:10
+null
+Process completed.

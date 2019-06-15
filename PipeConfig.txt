@@ -1,0 +1,3 @@
+IN_FILE: input.txt
+OUT_FILE: output.txt
+WORKERS_SEQUENCE: workers_seq.txt

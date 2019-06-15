@@ -1,0 +1,4 @@
+1 : worker1.txt : WorkItem
+2 : worker2.txt : WorkItem
+3 : worker3.txt : WorkItem
+4 : worker4.txt : WorkItem
