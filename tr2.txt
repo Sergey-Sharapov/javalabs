@@ -1,0 +1,3 @@
+Code Mode = 1
+Code = code.txt
+Type = BYTE

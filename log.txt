@@ -1,0 +1,54 @@
+PipeConfig:
+IN_FILE: input.txt
+OUT_FILE: output.txt
+WORKERS_SEQUENCE: workers.txt
+RELATIONS: workers_relations.txt
+
+
+SeqConfig:
+1 : worker1.txt : WorkItem
+2 : worker2.txt : WorkItem
+3 : worker3.txt : WorkItem
+4 : worker4.txt : WorkItem
+5 : tr1.txt : Translater
+6 : tr2.txt : Translater
+
+
+RelConfig:
+1 : 2
+2 : 3
+3 : 4
+1 : 5
+5 : 6
+6 : 4
+
+
+PROCESS_MODE: 0
+CHUNK_SIZE:10
+TYPE: BYTE
+
+
+PROCESS_MODE: 1
+CHUNK_SIZE:10
+TYPE: BYTE
+
+
+PROCESS_MODE: 0
+CHUNK_SIZE:10
+TYPE: BYTE
+
+
+PROCESS_MODE: 1
+CHUNK_SIZE:10
+TYPE: BYTE
+
+
+Error getNextByte
+Error getNextByte
+Error getNextByte
+Error getNextByte
+Error getNextByte
+Error getNextByte
+Error getNextByte
+Error decode array % 2 != 0
+Process completed.
